@@ -1,0 +1,29 @@
+footer {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer-list {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.footer-list > div {
+  max-width: 100px;
+  min-height: 45px;
+  margin-bottom: 10px;
+}
+
+.footer-list > ul {
+  padding: 0;
+  margin: 0;
+}
+
+.footer-list > ul > li,
+.footer-list > ul > li > a {
+  list-style: none;
+  text-decoration: none;
+  color: black;
+}
