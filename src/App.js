@@ -1,6 +1,7 @@
 import "./styles/globals.css";
 import "./styles/header.css";
 import "./styles/footer.css";
+import "./styles/hero.css";
 
 import Header from "./layout/Header";
 import Footer from "./layout/Footer";

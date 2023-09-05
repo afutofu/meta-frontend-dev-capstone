@@ -1,9 +1,8 @@
 footer {
   bottom: 0;
-  width: 80%;
   margin: 0 auto;
   display: flex;
-  justify-content: space-between;
+  flex-direction: column;
 }
 
 .footer-list {
@@ -28,4 +27,14 @@ footer {
   list-style: none;
   text-decoration: none;
   color: black;
+}
+
+@media screen and (min-width: 480px) {
+  footer {
+    bottom: 0;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
 }

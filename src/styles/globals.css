@@ -1,10 +1,21 @@
-#app {
+.container {
   margin: 0;
 }
 
 @media screen and (min-width: 480px) {
-  #app {
-    margin: 0 300px;
-    min-height: 100vh;
+  .container {
+    margin: 0 20px;
+  }
+}
+
+@media screen and (min-width: 900px) {
+  .container {
+    margin: 0 200px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .container {
+    margin: 0 230px;
   }
 }

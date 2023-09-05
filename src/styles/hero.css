@@ -1,0 +1,26 @@
+#hero {
+  padding: 20px 0;
+  background-color: #495e57;
+}
+
+#hero-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#hero-info {
+  max-width: 500px;
+  color: white;
+}
+
+#hero-info > h1 {
+  font-size: 40px;
+  margin: 0;
+}
+
+#hero-image {
+  width: 250px;
+  height: 250px;
+  background-color: white;
+}

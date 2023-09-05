@@ -7,7 +7,7 @@ const Header = () => {
   const [isNavOpen, setIsNavOpen] = useState(false);
 
   return (
-    <header>
+    <header className="container">
       <img id="header-logo" src={logoImg} alt="Logo" width={200} />
       <nav id="header-nav-mobile">
         <ul className={isNavOpen ? "opened" : ""}>

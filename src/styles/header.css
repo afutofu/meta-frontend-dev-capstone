@@ -66,12 +66,16 @@ nav > ul > li > a {
     padding: 0;
   }
 
+  #header-logo {
+    width: 150px;
+  }
+
   #header-nav-horizontal {
     display: auto;
     padding: 20px 0px;
     width: 100%;
     display: flex;
-    justify-content: space-between;
+    justify-content: flex-end;
   }
 
   #header-nav-mobile {
@@ -80,5 +84,15 @@ nav > ul > li > a {
 
   #header-hamburger {
     display: none;
+  }
+}
+
+@media screen and (min-width: 1000px) {
+  #header-logo {
+    width: 170px;
+  }
+
+  #header-nav-horizontal > ul {
+    max-width: 500px;
   }
 }
