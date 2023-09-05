@@ -1,0 +1,11 @@
+#app {
+  margin: 0 250px;
+  min-height: 100vh;
+  position: relative;
+}
+
+@media screen and (max-width: 480px) {
+  #app {
+    margin: 0;
+  }
+}

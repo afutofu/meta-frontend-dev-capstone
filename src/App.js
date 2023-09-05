@@ -1,18 +1,22 @@
-import "./styles/app.css";
+import "./styles/globals.css";
 import "./styles/header.css";
 import "./styles/footer.css";
 
 import Header from "./layout/Header";
 import Footer from "./layout/Footer";
 
-function App() {
+import { Outlet } from "react-router-dom";
+
+const App = () => {
   return (
     <div id="app">
       <Header />
-      <main style={{ minHeight: "50vh" }}></main>
+      <main style={{ minHeight: "50vh" }}>
+        <Outlet />
+      </main>
       <Footer />
     </div>
   );
-}
+};
 
 export default App;
