@@ -1,11 +1,10 @@
 #app {
-  margin: 0 250px;
-  min-height: 100vh;
-  position: relative;
+  margin: 0;
 }
 
-@media screen and (max-width: 480px) {
+@media screen and (min-width: 480px) {
   #app {
-    margin: 0;
+    margin: 0 300px;
+    min-height: 100vh;
   }
 }
