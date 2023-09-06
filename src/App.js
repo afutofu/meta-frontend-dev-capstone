@@ -5,6 +5,7 @@ import "./styles/hero.css";
 import "./styles/specials.css";
 import "./styles/testimonials.css";
 import "./styles/about.css";
+import "./styles/reservations.css";
 
 import Header from "./layout/Header";
 import Footer from "./layout/Footer";
