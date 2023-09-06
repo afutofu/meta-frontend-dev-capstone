@@ -121,7 +121,7 @@ const BookingForm = ({ availableTimes, dispatchOnDateChange, submitData }) => {
         type="submit"
         disabled={!areAllFieldsValid()}
       >
-        Make your reservation
+        Confirm Reservation
       </button>
     </form>
   );

@@ -15,6 +15,7 @@ const fetchAPI = (date) => {
     if (random() < 0.5) result.push(i + ":30");
   }
 
+  console.log(result);
   return result;
 };
 

@@ -4,6 +4,7 @@ import "./index.css";
 import App from "./App";
 import Home from "./pages/Home";
 import Reservation from "./pages/Reservation";
+import ReservationConfirmation from "./pages/ReservationConfirmation";
 import reportWebVitals from "./reportWebVitals";
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 
@@ -20,8 +21,12 @@ const router = createBrowserRouter([
         path: "reservation",
         element: <Reservation />,
       },
+      {
+        path: "reservation-confirmed",
+        element: <ReservationConfirmation />,
+      },
     ],
-    errorElement: <App />,
+    errorElement: <App error />,
   },
 ]);
 

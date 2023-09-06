@@ -23,12 +23,16 @@ const Reservations = () => {
 
   const submitData = (formData) => {
     const response = submitAPI(formData);
-    if (response) navigate("/confirmed-reservation");
+    if (response) navigate("/reservation-confirmed");
   };
 
   return (
     <div className="bookings">
-      <h2>Table reservation</h2>
+      <div className="bookings-header">
+        <h2>Table reservation</h2>
+        <p>Choose a date and time to dine in Little Lemon</p>
+      </div>
+
       <div className="container">
         <BookingForm
           availableTimes={availableTimes}

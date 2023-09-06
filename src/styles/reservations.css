@@ -1,6 +1,6 @@
-.bookings h2 {
-  padding: 1.875rem 0 1.875rem 0;
+.bookings-header {
   background-color: #495e57;
+  padding: 1.875rem 0 1.875rem 0;
   color: #ffffff;
   text-align: center;
 }
