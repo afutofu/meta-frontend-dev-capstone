@@ -1,4 +1,5 @@
 import React from "react";
+import mediterraneanRestaurant from "../../assets/mediterranean-resto.jpg";
 
 const Hero = () => {
   return (
@@ -13,7 +14,11 @@ const Hero = () => {
           </p>
           <button>Reserve a Table</button>
         </div>
-        <div id="hero-image">Picture</div>
+        <img
+          id="hero-image"
+          src={mediterraneanRestaurant}
+          alt="Mediterranean Restaurant"
+        />
       </div>
     </section>
   );
