@@ -1,0 +1,35 @@
+#specials {
+  padding: 20px 0;
+}
+
+#specials-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#specials-list {
+  display: flex;
+  justify-content: space-between;
+}
+
+.specials-card,
+.specials-card-image {
+  max-width: 220px;
+  background-color: #f6f6f6;
+}
+
+.specials-card * {
+  margin: 0;
+}
+
+.specials-card-texts {
+  padding: 5px 15px;
+  padding-bottom: 15px;
+}
+
+.specials-card-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
