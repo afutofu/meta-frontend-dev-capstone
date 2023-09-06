@@ -4,6 +4,7 @@ import "./styles/footer.css";
 import "./styles/hero.css";
 import "./styles/specials.css";
 import "./styles/testimonials.css";
+import "./styles/about.css";
 
 import Header from "./layout/Header";
 import Footer from "./layout/Footer";
